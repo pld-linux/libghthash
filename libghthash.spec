@@ -14,10 +14,12 @@ BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-libghthash is a Generic Hash Table which is meant to be easy to extend,
-portable, clear in its code and easy to use.
+libghthash is a Generic Hash Table which is meant to be easy to
+extend, portable, clear in its code and easy to use.
 
 %description -l pl
+libghthash to ogólna tablica mieszaj±ca maj±ca byæ ³atwa w
+rozszerzaniu, przeno¶na, ³atwa w u¿yciu i mieæ przejrzysty kod.
 
 %package devel
 Summary:	Header files for libghthash library
@@ -26,7 +28,8 @@ Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
-This is the package containing the header files for libghthash library.
+This is the package containing the header files for libghthash
+library.
 
 %description devel -l pl
 Ten pakiet zawiera pliki nag³ówkowe biblioteki libghthash.
@@ -75,8 +78,8 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %doc html/*
+%attr(755,root,root) %{_libdir}/*.so
 %{_libdir}/*.la
-%{_libdir}/*.so
 %{_includedir}/*.h
 
 %files static

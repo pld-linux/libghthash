@@ -1,5 +1,5 @@
 Summary:	Generic Hash Table library
-Summary(pl):	Biblioteka - ogólna tablica mieszaj±ca
+Summary(pl.UTF-8):   Biblioteka - ogÃ³lna tablica mieszajÄ…ca
 Name:		libghthash
 Version:	0.5.6
 Release:	0.9
@@ -17,13 +17,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 libghthash is a Generic Hash Table which is meant to be easy to
 extend, portable, clear in its code and easy to use.
 
-%description -l pl
-libghthash to ogólna tablica mieszaj±ca maj±ca byæ ³atwa w
-rozszerzaniu, przeno¶na, ³atwa w u¿yciu i mieæ przejrzysty kod.
+%description -l pl.UTF-8
+libghthash to ogÃ³lna tablica mieszajÄ…ca majÄ…ca byÄ‡ Å‚atwa w
+rozszerzaniu, przenoÅ›na, Å‚atwa w uÅ¼yciu i mieÄ‡ przejrzysty kod.
 
 %package devel
 Summary:	Header files for libghthash library
-Summary(pl):	Pliki nag³ówkowe biblioteki libghthash
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe biblioteki libghthash
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -31,19 +31,19 @@ Requires:	%{name} = %{version}-%{release}
 This is the package containing the header files for libghthash
 library.
 
-%description devel -l pl
-Ten pakiet zawiera pliki nag³ówkowe biblioteki libghthash.
+%description devel -l pl.UTF-8
+Ten pakiet zawiera pliki nagÅ‚Ã³wkowe biblioteki libghthash.
 
 %package static
 Summary:	Static libghthash library
-Summary(pl):	Statyczna biblioteka libghthash
+Summary(pl.UTF-8):   Statyczna biblioteka libghthash
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libghthash library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka libghthash.
 
 %prep

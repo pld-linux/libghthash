@@ -1,5 +1,5 @@
 Summary:	Generic Hash Table library
-Summary(pl.UTF-8):   Biblioteka - ogólna tablica mieszająca
+Summary(pl.UTF-8):	Biblioteka - ogólna tablica mieszająca
 Name:		libghthash
 Version:	0.5.6
 Release:	0.9
@@ -23,7 +23,7 @@ rozszerzaniu, przenośna, łatwa w użyciu i mieć przejrzysty kod.
 
 %package devel
 Summary:	Header files for libghthash library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libghthash
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libghthash
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -36,7 +36,7 @@ Ten pakiet zawiera pliki nagłówkowe biblioteki libghthash.
 
 %package static
 Summary:	Static libghthash library
-Summary(pl.UTF-8):   Statyczna biblioteka libghthash
+Summary(pl.UTF-8):	Statyczna biblioteka libghthash
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
